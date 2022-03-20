@@ -5,8 +5,8 @@
   
   <entry>
     <title>test</title>
-    <link href="/2022/03/20/test/"/>
-    <url>/2022/03/20/test/</url>
+    <link href="/2022/03/20/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/test/"/>
+    <url>/2022/03/20/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F/test/</url>
     
     <content type="html"><![CDATA[<p><img src="/.test.assets/image-20220320183012835.png" alt="image-20220320183012835"></p>]]></content>
     
@@ -18,8 +18,8 @@
   
   <entry>
     <title>ping github.com时dns解析失败的问题</title>
-    <link href="/2022/03/20/ping-github-com%E6%97%B6dns%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/"/>
-    <url>/2022/03/20/ping-github-com%E6%97%B6dns%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</url>
+    <link href="/2022/03/20/%E9%94%99%E8%AF%AFbug/ping-github-com%E6%97%B6dns%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/"/>
+    <url>/2022/03/20/%E9%94%99%E8%AF%AFbug/ping-github-com%E6%97%B6dns%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</url>
     
     <content type="html"><![CDATA[<p>先在<a href="https://ipaddress.com/website">https://ipaddress.com/website</a> 获取</p><ul><li>GitHub.com</li><li>github.global.ssl.Fastly.net</li></ul><p>两个域名的对应IP地址</p><p>在<code>C:\Windows\System32\drivers\etc</code>加入上述解析结果</p>]]></content>
     
