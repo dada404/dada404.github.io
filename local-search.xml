@@ -17,6 +17,19 @@
   
   
   <entry>
+    <title>test</title>
+    <link href="/2022/03/20/test/"/>
+    <url>/2022/03/20/test/</url>
+    
+    <content type="html"><![CDATA[<p><img src="/.test.assets/image-20220320183012835.png" alt="image-20220320183012835"></p>]]></content>
+    
+    
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>ping github.com时dns解析失败的问题</title>
     <link href="/2022/03/20/%E9%94%99%E8%AF%AFbug/ping-github-com%E6%97%B6dns%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <url>/2022/03/20/%E9%94%99%E8%AF%AFbug/ping-github-com%E6%97%B6dns%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</url>
