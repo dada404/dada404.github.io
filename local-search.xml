@@ -4,6 +4,81 @@
   
   
   <entry>
+    <title>1.Introduct to DevOps</title>
+    <link href="/2022/04/06/6_DevOps/1-Introduct-to-DevOps/"/>
+    <url>/2022/04/06/6_DevOps/1-Introduct-to-DevOps/</url>
+    
+    <content type="html"><![CDATA[<p><strong>内容以及图片摘录于</strong>：<a href="https://www.coursera.org/learn/intro-to-devops/">https://www.coursera.org/learn/intro-to-devops/</a></p><p>很喜欢课程中老师知识的讲述方式</p><h1 id="DevOps是什么"><a href="#DevOps是什么" class="headerlink" title="DevOps是什么"></a>DevOps是什么</h1><p><strong>其中culture是最重要的</strong>，但很多企业把精力倾向于对tools和methods选择和使用，而有些DevOps的工具供应商也对宣传工具的重要性以至于他们能很好的售卖他们的产品（我当初踩坑就是被工具选择和使用困住了）</p><p><img src="https://raw.githubusercontent.com/dada404/pictures/main/image-20220402170918593.png" alt="image-20220402170918593"></p><h1 id="DevOps能带来什么"><a href="#DevOps能带来什么" class="headerlink" title="DevOps能带来什么"></a>DevOps能带来什么</h1><ul><li>fail fast and roll back quickly（失败时能快速回滚）</li><li>test in-market instead of analyzing（在真正的生产环境中A/B测试）</li><li>application  design allowed individual components to be replaced（某个服务挂了不影响其他服务的使用）</li></ul><h1 id="对DevOps的偏见"><a href="#对DevOps的偏见" class="headerlink" title="对DevOps的偏见"></a>对DevOps的偏见</h1><ul><li>DevOps不是简单的Dev+Ops</li><li>不是单独的一个团队</li><li>不是简单工具的使用</li><li>并不是处处适用的</li><li>不只是自动化（测试打包部署等）</li></ul><h1 id="DevOps的目标是什么"><a href="#DevOps的目标是什么" class="headerlink" title="DevOps的目标是什么"></a>DevOps的目标是什么</h1><p><strong>Agility is goal.</strong></p><ul><li>Smart experimentation </li><li>Moving in market </li><li>With maximum velocity and minimum risk</li><li>Gaining quick, valuable insights</li></ul><h1 id="敏捷性的三大要素"><a href="#敏捷性的三大要素" class="headerlink" title="敏捷性的三大要素"></a>敏捷性的三大要素</h1><ul><li><p>交付层面：DevOps</p><ul><li>cultural change</li><li>automated pipelines</li><li>infrastructure as code</li><li>immutable infrastructure</li><li>cloud native application design</li><li>the ecosystem of containers</li><li>how to deploy with immutable infrastructure.</li></ul></li><li><p>架构层面：微服务</p></li><li><p>基础设施：容器</p></li></ul><p><img src="https://raw.githubusercontent.com/dada404/pictures/main/image-20220402170432582.png" alt="image-20220402170432582"></p><h1 id="如何改变团队文化为DevOps-culture"><a href="#如何改变团队文化为DevOps-culture" class="headerlink" title="如何改变团队文化为DevOps culture"></a>如何改变团队文化为DevOps culture</h1><ul><li><p>Think differently</p><ul><li>Socail coding（git and public repository）</li><li>Working in small batches(microservice)</li><li>Minimum Viable Product(microservice)</li></ul></li><li><p>Work differently</p><ul><li>TDD（Test Driven Developmemt）or BDD（Behavior Driven Developmemt）</li><li>CI / CD</li></ul></li><li><p>Organize differently</p><ul><li>Organization impacts design：组织方式的变化导致产品的架构和设计的变化</li></ul></li><li><p>Measure differently</p><blockquote><p>How changing your measurement system to encourage the correct behavior is critical for your success because <strong>you get what you measure.</strong></p></blockquote><p>度量工作的方式需要发生改变</p></li></ul><h2 id="需要什么"><a href="#需要什么" class="headerlink" title="需要什么"></a>需要什么</h2><p>文化的改变是极度困难的，它要求他们成员的遗忘掉之前的思想来完成</p><ul><li>trust</li><li>transparency</li><li>discipline</li></ul><h1 id="往前的模型"><a href="#往前的模型" class="headerlink" title="往前的模型"></a>往前的模型</h1><h2 id="瀑布模型-Waterfall"><a href="#瀑布模型-Waterfall" class="headerlink" title="瀑布模型(Waterfall)"></a>瀑布模型(Waterfall)</h2><p>有着明显的缺点</p><ul><li>各个阶段之间阻塞</li><li>阶段性的回退带来巨大消耗</li><li>没有中间的产品和评估，引出了极大的风险</li></ul><p><img src="https://raw.githubusercontent.com/dada404/pictures/main/Snipaste_2022-04-04_11-00-04.png" alt="Snipaste_2022-04-04_11-00-04"></p><h2 id="极限编程-XP"><a href="#极限编程-XP" class="headerlink" title="极限编程(XP)"></a>极限编程(XP)</h2><p><img src="https://raw.githubusercontent.com/dada404/pictures/main/Snipaste_2022-04-04_11-20-01.png" alt="Snipaste_2022-04-04_11-20-01"></p><h2 id="敏捷开发-Agile"><a href="#敏捷开发-Agile" class="headerlink" title="敏捷开发(Agile)"></a>敏捷开发(Agile)</h2><h3 id="敏捷的理论"><a href="#敏捷的理论" class="headerlink" title="敏捷的理论"></a>敏捷的理论</h3><ul><li><strong>Individuals and interactions</strong> over processes and tools</li><li><strong>Working software</strong> over comprehensive documentation</li><li><strong>Customer collaboration</strong> over contract negotiation</li><li><strong>Responding to change</strong> over following a plan</li></ul><p>敏捷开发的体现是它会出现大量的中间产品予以测试发布等，通过这个中间产品得以获取尽可能早的反馈，再进行重新编码等</p><h3 id="敏捷的不足"><a href="#敏捷的不足" class="headerlink" title="敏捷的不足"></a>敏捷的不足</h3><p>敏捷开发中在严格管制的企业中即使Dev产生了中间的产品，也要等待确认Ops的部署实施</p><p><img src="https://github.com/dada404/pictures/blob/main/Snipaste_2022-04-04_11-30-54.png?raw=true" alt="Snipaste_2022-04-04_11-30-54"></p><h3 id="引出了Shadow-IT"><a href="#引出了Shadow-IT" class="headerlink" title="引出了Shadow IT"></a>引出了Shadow IT</h3><p>正是因为上述的问题，引出了影子IT，其内容组织中的系统是由组织内部建立并且使用，<strong>但没有正式的组织核可</strong>，而系统是<strong>由IT部门以外的部门订定规格并且布署</strong>。<a href="https://zh.wikipedia.org/wiki/%E5%BD%B1%E5%AD%90IT">^ 1</a></p><p><a href="https://cloud.tencent.com/developer/article/1170722">https://cloud.tencent.com/developer/article/1170722</a></p><h1 id="DevOps一些好的内容"><a href="#DevOps一些好的内容" class="headerlink" title="DevOps一些好的内容"></a>DevOps一些好的内容</h1><ul><li><a href="https://devopsdays.org/">DevOpsday</a></li><li><em>Continous Delivery《持续交付》</em></li><li><em>The Phoenix Project 《凤凰项目》</em></li><li><a href="https://www.devops-research.com/research.html#reports">State of DevOps Reports</a></li><li><em><strong>The DevOps Handbook《DevOps实践指南》</strong></em></li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>技术 DevOps</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>DevOps</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>22年15周周报</title>
+    <link href="/2022/04/04/0_life/weekly/22-3-29-15w-md/"/>
+    <url>/2022/04/04/0_life/weekly/22-3-29-15w-md/</url>
+    
+    <content type="html"><![CDATA[<h1 id="3-28"><a href="#3-28" class="headerlink" title="3/28"></a>3/28</h1><ul><li>Anki复习</li><li>MIT 6.824 看完paper, 看完视频（欠总结）</li></ul><p>评价：效率较低 内容偏少</p><h1 id="3-29"><a href="#3-29" class="headerlink" title="3/29"></a>3/29</h1><ul><li>看完剑指Offer</li><li>刷了两道题</li><li>学完GO的基本语法</li><li>回顾面经问题（Serializable接口的一些细节）</li></ul><h1 id="3-30"><a href="#3-30" class="headerlink" title="3/30"></a>3/30</h1><ul><li>AcWing 题目 * 2</li><li>学完GO中等语法（还剩并发那块）</li></ul><h1 id="3-31"><a href="#3-31" class="headerlink" title="3/31"></a>3/31</h1><ul><li><p>英语单词*60</p></li><li><p>总结语法内容，构建GO语法的知识组块。并且学完了并发 </p></li></ul><h1 id="4-1"><a href="#4-1" class="headerlink" title="4/1"></a>4/1</h1><ul><li>英语单词 35 + 60</li><li>学完怎么用RPC了，看完了MIT 6.824的需求 无从下手….</li></ul><h1 id="4-2"><a href="#4-2" class="headerlink" title="4/2"></a>4/2</h1><ul><li>英语单词 35 + 60</li><li>Coursera Learning how to learn 第三周第一节</li><li>Coursera Introduction to DevOps 第一周的前半部分（打算将笔记搞到博客，挺有意义的）挺喜欢这个老师的教学方式，但是语速有点快:sob:</li><li>AcWing 整数和浮点二分（之前做二分都挺迷糊的，现在算是清晰了不少） + 2*LeetCode easy</li></ul><h1 id="4-3"><a href="#4-3" class="headerlink" title="4/3"></a>4/3</h1><ul><li>单词</li><li>offer完成+二分 * 2</li><li>Coursera Learning how to learn 第三周第二节</li><li>IOC 看到createBean （看得好煎熬，觉得好没有意义）</li><li>复习完Anki内容（好久没新加内容进去了）</li></ul><h1 id="不足"><a href="#不足" class="headerlink" title="不足"></a>不足</h1><ul><li>对于做lab有些畏手畏脚，不敢下手（放手做就是了）</li><li>多个选择下不知道选什么了，当下太多犹豫要做的事情（IOC AOP真要看吗-_-）</li><li>计网打算不重新学了，听课感觉意义不大，做下实验还好</li></ul>]]></content>
+    
+    
+    <categories>
+      
+      <category>life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>weekly</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
+    <title>22年14周周报</title>
+    <link href="/2022/03/27/0_life/weekly/2022-3-27-14w-md/"/>
+    <url>/2022/03/27/0_life/weekly/2022-3-27-14w-md/</url>
+    
+    <content type="html"><![CDATA[<p>周报的想法是突发的，本周前几天还没怎么记，本次就简单记一下完成的内容吧。</p><p>记录自己每天完成的内容，并发表自己的期许！下周会更详细！</p><h2 id="完成内容"><a href="#完成内容" class="headerlink" title="完成内容"></a>完成内容</h2><ul><li>剑指offer二刷临近完成</li><li>Spring的IOC源码学习：对整体容器启动有了进一步的了解，还剩DI的完整过程（=__=不是很想再看了，又是在看别人造好的轮子）</li><li>启动MIT 6.824，看了1/4的MapReduce的paper，第一次看英文paper难顶</li><li>开启Computer Networking: A Top-Down Approach，重新巩固计网基础</li><li>看了一系列的面经</li></ul><h2 id="不足"><a href="#不足" class="headerlink" title="不足"></a>不足</h2><ul><li>学习间的间隔过久，浪费了很多时间</li><li>赖床= =</li></ul><h2 id="期许"><a href="#期许" class="headerlink" title="期许"></a>期许</h2><ul><li>期望MIT 6.824能完成lab1</li><li>剑指offer二刷结束，并开启AcWing的学习</li><li>完成Application Layer的学习</li><li>对本周期许进行总结</li></ul><h2 id="分享"><a href="#分享" class="headerlink" title="分享"></a>分享</h2><p>我是看到这个网站才突发学习这些CS课程的，发现很多宝贵课程。</p><p><a href="https://csdiy.wiki/">https://csdiy.wiki/</a></p>]]></content>
+    
+    
+    <categories>
+      
+      <category>life</category>
+      
+    </categories>
+    
+    
+    <tags>
+      
+      <tag>weekly</tag>
+      
+    </tags>
+    
+  </entry>
+  
+  
+  
+  <entry>
     <title>ping github.com时dns解析失败的问题</title>
     <link href="/2022/03/20/%E9%94%99%E8%AF%AFbug/ping-github-com%E6%97%B6dns%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/"/>
     <url>/2022/03/20/%E9%94%99%E8%AF%AFbug/ping-github-com%E6%97%B6dns%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</url>

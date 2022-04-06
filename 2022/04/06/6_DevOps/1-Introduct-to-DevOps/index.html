@@ -16,21 +16,27 @@
   <meta name="author" content="Reeda">
   <meta name="keywords" content="">
   
-    <meta name="description" content="先在https:&#x2F;&#x2F;ipaddress.com&#x2F;website 获取  GitHub.com github.global.ssl.Fastly.net  两个域名的对应IP地址 在C:\Windows\System32\drivers\etc加入上述解析结果">
+    <meta name="description" content="Introduce to DevOps的第一周总结，主要对整个DevOps的总概">
 <meta property="og:type" content="article">
-<meta property="og:title" content="ping github.com时dns解析失败的问题">
-<meta property="og:url" content="https://dada404.github.io/2022/03/20/%E9%94%99%E8%AF%AFbug/ping-github-com%E6%97%B6dns%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/index.html">
+<meta property="og:title" content="1.Introduct to DevOps">
+<meta property="og:url" content="https://dada404.github.io/2022/04/06/6_DevOps/1-Introduct-to-DevOps/index.html">
 <meta property="og:site_name" content="Reeda&#39;s blog">
-<meta property="og:description" content="先在https:&#x2F;&#x2F;ipaddress.com&#x2F;website 获取  GitHub.com github.global.ssl.Fastly.net  两个域名的对应IP地址 在C:\Windows\System32\drivers\etc加入上述解析结果">
+<meta property="og:description" content="Introduce to DevOps的第一周总结，主要对整个DevOps的总概">
 <meta property="og:locale" content="zh_CN">
-<meta property="article:published_time" content="2022-03-20T04:42:06.000Z">
-<meta property="article:modified_time" content="2022-03-20T04:44:57.196Z">
+<meta property="og:image" content="https://raw.githubusercontent.com/dada404/pictures/main/image-20220402170918593.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/dada404/pictures/main/image-20220402170432582.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/dada404/pictures/main/Snipaste_2022-04-04_11-00-04.png">
+<meta property="og:image" content="https://raw.githubusercontent.com/dada404/pictures/main/Snipaste_2022-04-04_11-20-01.png">
+<meta property="og:image" content="https://github.com/dada404/pictures/blob/main/Snipaste_2022-04-04_11-30-54.png?raw=true">
+<meta property="article:published_time" content="2022-04-06T11:08:59.255Z">
+<meta property="article:modified_time" content="2022-04-06T12:05:40.731Z">
 <meta property="article:author" content="Reeda">
-<meta property="article:tag" content="tool-bug">
+<meta property="article:tag" content="DevOps">
 <meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:image" content="https://raw.githubusercontent.com/dada404/pictures/main/image-20220402170918593.png">
   
   
-  <title>ping github.com时dns解析失败的问题 - Reeda&#39;s blog</title>
+  <title>1.Introduct to DevOps - Reeda&#39;s blog</title>
 
   <link  rel="stylesheet" href="https://lib.baomitu.com/twitter-bootstrap/4.6.1/css/bootstrap.min.css" />
 
@@ -187,7 +193,7 @@
       <div class="banner-text text-center fade-in-up">
         <div class="h2">
           
-            <span id="subtitle" data-typed-text="ping github.com时dns解析失败的问题"></span>
+            <span id="subtitle" data-typed-text="1.Introduct to DevOps"></span>
           
         </div>
 
@@ -198,8 +204,8 @@
     
       <span class="post-meta">
         <i class="iconfont icon-date-fill" aria-hidden="true"></i>
-        <time datetime="2022-03-20 12:42" pubdate>
-          2022年3月20日 下午
+        <time datetime="2022-04-06 19:08" pubdate>
+          2022年4月6日 晚上
         </time>
       </span>
     
@@ -210,7 +216,7 @@
       <span class="post-meta mr-2">
         <i class="iconfont icon-chart"></i>
         
-          122 字
+          1.9k 字
         
       </span>
     
@@ -221,7 +227,7 @@
         
         
         
-          2 分钟
+          16 分钟
         
       </span>
     
@@ -267,17 +273,109 @@
         <div id="board">
           <article class="post-content mx-auto">
             <!-- SEO header -->
-            <h1 style="display: none">ping github.com时dns解析失败的问题</h1>
+            <h1 style="display: none">1.Introduct to DevOps</h1>
             
             <div class="markdown-body">
               
-              <p>先在<a target="_blank" rel="noopener" href="https://ipaddress.com/website">https://ipaddress.com/website</a> 获取</p>
-<ul>
-<li>GitHub.com</li>
-<li>github.global.ssl.Fastly.net</li>
+              <p><strong>内容以及图片摘录于</strong>：<a target="_blank" rel="noopener" href="https://www.coursera.org/learn/intro-to-devops/">https://www.coursera.org/learn/intro-to-devops/</a></p>
+<p>很喜欢课程中老师知识的讲述方式</p>
+<h1 id="DevOps是什么"><a href="#DevOps是什么" class="headerlink" title="DevOps是什么"></a>DevOps是什么</h1><p><strong>其中culture是最重要的</strong>，但很多企业把精力倾向于对tools和methods选择和使用，而有些DevOps的工具供应商也对宣传工具的重要性以至于他们能很好的售卖他们的产品（我当初踩坑就是被工具选择和使用困住了）</p>
+<p><img src="https://raw.githubusercontent.com/dada404/pictures/main/image-20220402170918593.png" srcset="/img/loading.gif" lazyload alt="image-20220402170918593"></p>
+<h1 id="DevOps能带来什么"><a href="#DevOps能带来什么" class="headerlink" title="DevOps能带来什么"></a>DevOps能带来什么</h1><ul>
+<li>fail fast and roll back quickly（失败时能快速回滚）</li>
+<li>test in-market instead of analyzing（在真正的生产环境中A/B测试）</li>
+<li>application  design allowed individual components to be replaced（某个服务挂了不影响其他服务的使用）</li>
 </ul>
-<p>两个域名的对应IP地址</p>
-<p>在<code>C:\Windows\System32\drivers\etc</code>加入上述解析结果</p>
+<h1 id="对DevOps的偏见"><a href="#对DevOps的偏见" class="headerlink" title="对DevOps的偏见"></a>对DevOps的偏见</h1><ul>
+<li>DevOps不是简单的Dev+Ops</li>
+<li>不是单独的一个团队</li>
+<li>不是简单工具的使用</li>
+<li>并不是处处适用的</li>
+<li>不只是自动化（测试打包部署等）</li>
+</ul>
+<h1 id="DevOps的目标是什么"><a href="#DevOps的目标是什么" class="headerlink" title="DevOps的目标是什么"></a>DevOps的目标是什么</h1><p><strong>Agility is goal.</strong></p>
+<ul>
+<li>Smart experimentation </li>
+<li>Moving in market </li>
+<li>With maximum velocity and minimum risk</li>
+<li>Gaining quick, valuable insights</li>
+</ul>
+<h1 id="敏捷性的三大要素"><a href="#敏捷性的三大要素" class="headerlink" title="敏捷性的三大要素"></a>敏捷性的三大要素</h1><ul>
+<li><p>交付层面：DevOps</p>
+<ul>
+<li>cultural change</li>
+<li>automated pipelines</li>
+<li>infrastructure as code</li>
+<li>immutable infrastructure</li>
+<li>cloud native application design</li>
+<li>the ecosystem of containers</li>
+<li>how to deploy with immutable infrastructure.</li>
+</ul>
+</li>
+<li><p>架构层面：微服务</p>
+</li>
+<li><p>基础设施：容器</p>
+</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/dada404/pictures/main/image-20220402170432582.png" srcset="/img/loading.gif" lazyload alt="image-20220402170432582"></p>
+<h1 id="如何改变团队文化为DevOps-culture"><a href="#如何改变团队文化为DevOps-culture" class="headerlink" title="如何改变团队文化为DevOps culture"></a>如何改变团队文化为DevOps culture</h1><ul>
+<li><p>Think differently</p>
+<ul>
+<li>Socail coding（git and public repository）</li>
+<li>Working in small batches(microservice)</li>
+<li>Minimum Viable Product(microservice)</li>
+</ul>
+</li>
+<li><p>Work differently</p>
+<ul>
+<li>TDD（Test Driven Developmemt）or BDD（Behavior Driven Developmemt）</li>
+<li>CI / CD</li>
+</ul>
+</li>
+<li><p>Organize differently</p>
+<ul>
+<li>Organization impacts design：组织方式的变化导致产品的架构和设计的变化</li>
+</ul>
+</li>
+<li><p>Measure differently</p>
+<blockquote>
+<p>How changing your measurement system to encourage the correct behavior is critical for your success because <strong>you get what you measure.</strong></p>
+</blockquote>
+<p>度量工作的方式需要发生改变</p>
+</li>
+</ul>
+<h2 id="需要什么"><a href="#需要什么" class="headerlink" title="需要什么"></a>需要什么</h2><p>文化的改变是极度困难的，它要求他们成员的遗忘掉之前的思想来完成</p>
+<ul>
+<li>trust</li>
+<li>transparency</li>
+<li>discipline</li>
+</ul>
+<h1 id="往前的模型"><a href="#往前的模型" class="headerlink" title="往前的模型"></a>往前的模型</h1><h2 id="瀑布模型-Waterfall"><a href="#瀑布模型-Waterfall" class="headerlink" title="瀑布模型(Waterfall)"></a>瀑布模型(Waterfall)</h2><p>有着明显的缺点</p>
+<ul>
+<li>各个阶段之间阻塞</li>
+<li>阶段性的回退带来巨大消耗</li>
+<li>没有中间的产品和评估，引出了极大的风险</li>
+</ul>
+<p><img src="https://raw.githubusercontent.com/dada404/pictures/main/Snipaste_2022-04-04_11-00-04.png" srcset="/img/loading.gif" lazyload alt="Snipaste_2022-04-04_11-00-04"></p>
+<h2 id="极限编程-XP"><a href="#极限编程-XP" class="headerlink" title="极限编程(XP)"></a>极限编程(XP)</h2><p><img src="https://raw.githubusercontent.com/dada404/pictures/main/Snipaste_2022-04-04_11-20-01.png" srcset="/img/loading.gif" lazyload alt="Snipaste_2022-04-04_11-20-01"></p>
+<h2 id="敏捷开发-Agile"><a href="#敏捷开发-Agile" class="headerlink" title="敏捷开发(Agile)"></a>敏捷开发(Agile)</h2><h3 id="敏捷的理论"><a href="#敏捷的理论" class="headerlink" title="敏捷的理论"></a>敏捷的理论</h3><ul>
+<li><strong>Individuals and interactions</strong> over processes and tools</li>
+<li><strong>Working software</strong> over comprehensive documentation</li>
+<li><strong>Customer collaboration</strong> over contract negotiation</li>
+<li><strong>Responding to change</strong> over following a plan</li>
+</ul>
+<p>敏捷开发的体现是它会出现大量的中间产品予以测试发布等，通过这个中间产品得以获取尽可能早的反馈，再进行重新编码等</p>
+<h3 id="敏捷的不足"><a href="#敏捷的不足" class="headerlink" title="敏捷的不足"></a>敏捷的不足</h3><p>敏捷开发中在严格管制的企业中即使Dev产生了中间的产品，也要等待确认Ops的部署实施</p>
+<p><img src="https://github.com/dada404/pictures/blob/main/Snipaste_2022-04-04_11-30-54.png?raw=true" srcset="/img/loading.gif" lazyload alt="Snipaste_2022-04-04_11-30-54"></p>
+<h3 id="引出了Shadow-IT"><a href="#引出了Shadow-IT" class="headerlink" title="引出了Shadow IT"></a>引出了Shadow IT</h3><p>正是因为上述的问题，引出了影子IT，其内容组织中的系统是由组织内部建立并且使用，<strong>但没有正式的组织核可</strong>，而系统是<strong>由IT部门以外的部门订定规格并且布署</strong>。<a target="_blank" rel="noopener" href="https://zh.wikipedia.org/wiki/%E5%BD%B1%E5%AD%90IT">^ 1</a></p>
+<p><a target="_blank" rel="noopener" href="https://cloud.tencent.com/developer/article/1170722">https://cloud.tencent.com/developer/article/1170722</a></p>
+<h1 id="DevOps一些好的内容"><a href="#DevOps一些好的内容" class="headerlink" title="DevOps一些好的内容"></a>DevOps一些好的内容</h1><ul>
+<li><a target="_blank" rel="noopener" href="https://devopsdays.org/">DevOpsday</a></li>
+<li><em>Continous Delivery《持续交付》</em></li>
+<li><em>The Phoenix Project 《凤凰项目》</em></li>
+<li><a target="_blank" rel="noopener" href="https://www.devops-research.com/research.html#reports">State of DevOps Reports</a></li>
+<li><em><strong>The DevOps Handbook《DevOps实践指南》</strong></em></li>
+</ul>
 
               
             </div>
@@ -285,11 +383,32 @@
             <div>
               <div class="post-metas my-3">
   
+    <div class="post-meta mr-3 d-flex align-items-center">
+      <i class="iconfont icon-category"></i>
+      
+
+<span class="category-chains">
+  
+  
+    
+      <span class="category-chain">
+        
+  <a href="/categories/%E6%8A%80%E6%9C%AF-DevOps/" class="category-chain-item">技术 DevOps</a>
+  
+  
+
+      </span>
+    
+  
+</span>
+
+    </div>
+  
   
     <div class="post-meta">
       <i class="iconfont icon-tags"></i>
       
-        <a href="/tags/tool-bug/">#tool-bug</a>
+        <a href="/tags/DevOps/">#DevOps</a>
       
     </div>
   
@@ -301,8 +420,8 @@
 
   <div class="license-box my-3">
     <div class="license-title">
-      <div>ping github.com时dns解析失败的问题</div>
-      <div>https://dada404.github.io/2022/03/20/%E9%94%99%E8%AF%AFbug/ping-github-com%E6%97%B6dns%E8%A7%A3%E6%9E%90%E5%A4%B1%E8%B4%A5%E7%9A%84%E9%97%AE%E9%A2%98/</div>
+      <div>1.Introduct to DevOps</div>
+      <div>https://dada404.github.io/2022/04/06/6_DevOps/1-Introduct-to-DevOps/</div>
     </div>
     <div class="license-meta">
       
@@ -314,7 +433,7 @@
       
         <div class="license-meta-item license-meta-date">
           <div>发布于</div>
-          <div>2022年3月20日</div>
+          <div>2022年4月6日</div>
         </div>
       
       
@@ -344,15 +463,15 @@
                   <article class="post-prev col-6">
                     
                     
-                      <a href="/2022/03/27/0_life/weekly/2022-3-27-14w-md/" title="22年14周周报">
-                        <i class="iconfont icon-arrowleft"></i>
-                        <span class="hidden-mobile">22年14周周报</span>
-                        <span class="visible-mobile">上一篇</span>
-                      </a>
-                    
                   </article>
                   <article class="post-next col-6">
                     
+                    
+                      <a href="/2022/04/04/0_life/weekly/22-3-29-15w-md/" title="22年15周周报">
+                        <span class="hidden-mobile">22年15周周报</span>
+                        <span class="visible-mobile">下一篇</span>
+                        <i class="iconfont icon-arrowright"></i>
+                      </a>
                     
                   </article>
                 </div>
@@ -370,7 +489,7 @@
         var options = Object.assign(
           {"clientID":"36245ebcf6e552df4cae","clientSecret":"8beb1eab00633e94c512249b4704b436e8842406","repo":"dada404.github.io","owner":"dada404","admin":["dada404"],"language":"zh-CN","labels":["Gitalk"],"perPage":10,"pagerDirection":"last","distractionFreeMode":false,"createIssueManually":true,"proxy":"https://cors-anywhere.azm.workers.dev/https://github.com/login/oauth/access_token"},
           {
-            id: '9c58283ec54d011ed8eeb802d58a3e22'
+            id: '45c95d0aecb4d21fa56911cb44ce1d30'
           }
         )
         var gitalk = new Gitalk(options);
